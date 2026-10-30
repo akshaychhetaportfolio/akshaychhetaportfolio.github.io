@@ -5,7 +5,7 @@ import Footer from "@/common/Footer/Footer";
 import BackToTop from "@/common/BackToTop/BackToTop";
 
 export const metadata = {
-  metadataBase: new URL("https://growveradigital.github.io"),
+  metadataBase: new URL("https://akshaychhetaportfolio.github.io"),
   title: "Akshay Chheta — Graphic Designer & Video Editor",
   description:
     "Akshay Chheta — Graphic Designer & Video Editor portfolio.",
