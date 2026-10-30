@@ -20,13 +20,16 @@ export default function Header() {
       </Link>
       <button
         className="menu-btn"
-        aria-label="Open menu"
+        type="button"
+        aria-label={menuOpen ? "Close menu" : "Open menu"}
+        aria-expanded={menuOpen}
+        aria-controls="primary-navigation"
         onClick={() => setMenuOpen((prev) => !prev)}
       >
         <span></span>
         <span></span>
       </button>
-      <nav className={`nav${menuOpen ? " open" : ""}`}>
+      <nav id="primary-navigation" className={`nav${menuOpen ? " open" : ""}`}>
         <Link
           href="/about"
           className={pathname === "/about" ? "active" : ""}

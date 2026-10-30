@@ -193,6 +193,10 @@
 @media(max-width:900px) {
   .hero { grid-template-columns: 1fr; padding-top: 125px; }
   .hero-visual { min-height: 500px; }
+  .hero-character { height: 500px; }
+  .hero-visual { width: min(100%, 560px); margin-inline: auto; }
+  .lime-orb { width: min(80vw, 460px); height: min(80vw, 460px); right: 10%; }
+  .visual-ring { width: min(75vw, 420px); height: min(75vw, 420px); }
   .card-top { right: 7%; }
   .card-bottom { left: 7%; }
 }
@@ -221,5 +225,12 @@
   .skill-icon { width: 44px; height: 44px; border-radius: 10px; }
   .skill-icon img { border-radius: 10px; }
   .hero-actions .btn { width: 100%; justify-content: center; }
+}
+
+@media (max-width: 360px) {
+  .hero-visual .skill-icon { width: 36px; height: 36px; }
+  .hero-character { height: 280px; }
+  .icon-higgsfield { left: 0; }
+  .icon-canva { right: 0; }
 }
 

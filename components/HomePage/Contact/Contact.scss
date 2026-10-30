@@ -11,6 +11,8 @@
 .contact-box h2 { font-size: clamp(48px, 7vw, 90px); }
 
 .contact-email {
+  max-width: 100%;
+  overflow-wrap: anywhere;
   display: inline-block;
   margin-top: 38px;
   font-family: "Space Grotesk";

@@ -10,6 +10,15 @@
   align-items: start;
 }
 
+.contact-grid-wrap > * { min-width: 0; }
+.direct-email-text { overflow-wrap: anywhere; }
+
+@media (max-width: 480px) {
+  .contact-grid-wrap .contact-form-panel { padding: 24px 16px; }
+  .direct-card { padding: 24px 16px; }
+  .hours-row { flex-wrap: wrap; gap: 8px; }
+}
+
 // ── Left Form Panel ──
 .contact-form-panel {
   background: linear-gradient(180deg, #181818 0%, #121212 100%);

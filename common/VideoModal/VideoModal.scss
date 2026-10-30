@@ -15,9 +15,9 @@
 
 .video-modal-inner {
   position: relative;
-  width: min(420px, 90vw);
+  width: min(420px, 90vw, calc(82dvh * 9 / 16));
   aspect-ratio: 9 / 16;
-  max-height: 88vh;
+  max-height: 82dvh;
   background: #000;
   border-radius: 12px;
   overflow: hidden;
